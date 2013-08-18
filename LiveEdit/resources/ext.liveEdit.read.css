@@ -1,0 +1,21 @@
+.liveEdit-editing {
+	background-image: url(images/tab-edit-fade.png) !important;
+}
+
+.liveEdit-icons {
+	background-image: url(images/pencil.png);
+	height: 16px;
+	width: 16px;
+	display: inline-block;
+	margin-right: 5px;
+	vertical-align: top;
+}
+
+.liveEdit-icons.editsection {
+	vertical-align: bottom;
+	margin-right: 0;
+	display: none;
+
+	/* This is a hack to align the icon with the [edit] text. Fix this! */
+	margin-top: 2px;
+}

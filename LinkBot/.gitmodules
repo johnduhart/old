@@ -1,0 +1,6 @@
+[submodule "vendor/Fruity"]
+	path = vendor/Fruity
+	url = https://johnduhart@github.com/johnduhart/Fruity.git
+[submodule "vendor/Symfony/Component/Console"]
+	path = vendor/Symfony/Component/Console
+	url = https://github.com/symfony/Console.git

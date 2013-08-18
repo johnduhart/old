@@ -1,0 +1,10 @@
+namespace: 'Example'
+interfaces: 'Interfaces'
+templates: 'Templates'
+classes: 'Modules'
+generated: 'Base'
+abstract: 'Example\BaseClass'
+compiler: 'Example\Compiler'
+compiler_file: 'Compiler.php'
+default_templates:
+  - 'Hello'

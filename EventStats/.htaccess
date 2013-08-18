@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteRule ^(images/.*)$ $1 [L]
+RewriteRule ^index.php?p=(.*)$ http://compwhizii.net/EventStats/$1 [R]
+RewriteRule ^(.*)$ index.php?p=$1

@@ -1,0 +1,333 @@
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dt, dd, img, form, fieldset, blockquote {  
+    margin:0px; padding:0px; border:0px;   
+}
+
+body {
+	font-family: Tahoma, Arial, helvetica, sans-serif;
+	font-size: 62.5%;
+	background: #6e6e6e;
+}
+
+.container {width: 900px; margin: 0 auto; }
+
+p#login {float: right; }
+
+#top_bar {
+	overflow: hidden;
+	background: #232323 url(images/top_bar.png) repeat-x;
+	padding-top: 3px;
+	padding-bottom: 4px;
+	border-bottom: 1px solid #4d4d4d;
+}
+
+#top_bar p {font-size: 1.2em; color: #e2e2e2; font-family:"Trebuchet MS";}
+#top_bar a {font-size: 1.2em; color: #e2e2e2; font-family:"Trebuchet MS";}
+
+#header {
+	background: #000000 url(images/header.png) top repeat-x;
+}
+
+
+#branding {  
+	overflow: hidden;    
+    position: relative;   
+}
+
+h1 {
+	font-family:Segoe UI, Tahoma, Helvetica, Arial, "Microsoft Sans Serif", Verdana;
+	font-weight: bold;
+	color: #fff;
+	font-size: 3.9em;
+	padding-top: 20px;
+	position: absolute; 
+	top: 0;  left: 6.5em; 
+}
+
+p.desc {
+	font-family:Segoe UI, Tahoma, Helvetica, Arial, "Microsoft Sans Serif", Verdana;
+	color: #fff;
+	font-size: 3.0em;
+	position: absolute;
+	padding-top: 29px;
+	top: 0%;  left: 15.5em;  
+}
+
+ul#menu {
+	list-style: none;
+	position: absolute;
+	padding-top: 108px;
+	top: 0;
+}
+
+ul#menu li a {
+	font-size: 2em;
+	font-family: "Trebuchet MS";
+	text-decoration: none;
+	color: #fff;
+}
+
+ul#menu li {
+	float: left;
+	padding-right: 35px;
+}
+
+#content {
+	width: 912px;
+	background: #000000 url(images/content.png) top repeat-y;
+}
+
+#in_content {
+	padding: 5px 10px 20px;
+	width: 890px;
+}
+
+h2 {
+	font-family: Tahoma;
+	font-size: 3em;
+	font-weight: normal;
+	color: #e2e2e2;
+	display: inline;
+}
+
+hr {
+	border: 1px solid #e2e2e2;
+}
+
+#in_content hr {
+	border: 0;
+	height: 1px;
+	background-color: #e2e2e2;
+	width: 890px;
+	float: left;
+	margin-top:0px;
+	margin-bottom:15px;
+}
+
+#in_content p {
+	color: #e2e2e2;
+	font-size: 1.2em;
+}
+
+h3 {
+	font-family: Tahoma;
+	font-size: 1.8em;
+	font-weight: normal;
+	color: #e2e2e2;
+}
+
+.page_info {
+	height: 34px;
+	padding-top: 5px;
+}
+
+.page_info img {
+	padding-right: 5px;
+}
+
+#footer {  
+    font-size: 1.2em;   
+    background: #2c2c2c url(images/footer.png) top repeat-x;   
+    margin-top: 0px;   
+    padding-top: 5px;   
+    padding-bottom: 30px;   
+}
+
+#copyright {
+	color: #fff;
+	font-family:Segoe UI, Tahoma, Helvetica, Arial, "Microsoft Sans Serif", Verdana;
+	font-size: 1.2em;
+}
+
+#copyright_1 {
+	font-size: 1.4em;
+}
+
+.modlist {
+	padding-left: 25px;
+	font-size: 1.2em;
+	color: #d0d0d0;
+}
+
+a {
+	color: #e2e2e2;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.small_text {
+	font-size: .8em;
+}
+
+#login_box {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%;
+	background-color: #6e6e6e;
+	padding: 10px;
+	border: 3px solid #2c2c2c;
+}
+
+#login_box label {
+	font-size: 1.2em;
+	color: #e2e2e2;
+	margin-bottom: 15px;
+	display: block;
+}
+
+table#event_count {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+table#event_count td {
+    background-repeat: no-repeat;
+    background-position: 0 0;
+	padding-left: 20px;
+}
+
+td#ban {
+    background-image: url(images/icons/ban.png);
+}
+
+td#pban {
+    background-image: url(images/icons/pban.png);
+}
+
+td#unban {
+    background-image: url(images/icons/unban.png);
+}
+
+td#close {
+    background-image: url(images/icons/closed.png);
+}
+
+td#open {
+    background-image: url(images/icons/opened.png);
+}
+
+td#move {
+    background-image: url(images/icons/mov.png);
+}
+
+td#rename {
+    background-image: url(images/icons/rename.png);
+}
+
+td#ddt {
+    background-image: url(images/icons/ddt.png);
+}
+
+td#delete {
+    background-image: url(images/icons/delsoft.png);
+}
+
+td#capfix {
+    background-image: url(images/icons/capsfix.png);
+}
+
+table.set {
+    width: 100%;
+    border: 1px solid #777777;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+table.set tr.thead {
+    background: #6e6e6e;
+    color: #e2e2e2;
+    font: bold 9pt Tahoma;
+    padding: 4px;
+    padding-left: 8px;
+    padding-right: 4px;
+    margin: 0;
+    height: 16px;
+}
+
+table.set tr.rowa {
+    background-color:#888888;
+	color: #e2e2e2;
+	font-size: 1.1em;
+}
+
+table.set tr.rowred {
+	background-color:#8A6868;
+	color: #e2e2e2;
+	font-size: 1.1em;
+}
+
+#graph {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.ErrorBox {
+	background: #CF4C4C url(images/error_small.png) no-repeat scroll 5px 6px;
+	border: 2px solid #943434;
+	color: #000000;
+	margin-bottom: 10px;
+	padding: 8px 6px 8px 28px;
+}
+
+.WarningBox {
+	background: #EDF265 url(images/warning_small.png) no-repeat scroll 5px 6px;
+	border: 2px solid #AEB325;
+	color: #000000;
+	margin-bottom: 10px;
+	padding: 8px 6px 8px 28px;
+}
+
+#pageNotice {
+	margin-top: 10px;
+}
+
+.EditBox {
+	background: #6E6E6E;
+	border: 2px solid #777777;
+	margin-bottom: 0px;
+	padding: 4px 4px 4px 4px;
+	font-size: 1em;
+	vertical-align: middle;
+}
+
+.EditBox img {
+	vertical-align: middle;
+}
+
+.EditBox a {
+	background-repeat: no-repeat;
+	padding-left: 18px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.Action {
+	background-repeat: no-repeat;
+	padding-left: 18px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+#edit {
+	background-image: url(images/edit_small.png);
+}
+
+#delete {
+	background-image: url(images/delete_small.png);
+}
+
+#admincp {
+	background-image: url(images/admincp_small.png);
+}
+
+#add {
+	background-image: url(images/add_small.png);
+}
+
+#modedit {
+	background-image: url(images/mod_edit_small.png);
+}

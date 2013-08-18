@@ -1,0 +1,10 @@
+namespace: 'Fruity\Modules\Api\Query'
+templates: 'Templates'
+classes: ''
+generated: 'Base'
+abstract: 'Fruity\Modules\Api\Query\BaseQueryModule'
+#abstract: 'Blah' # Doesn't matter it gets overridden
+compiler: '\BartenderCompiler'
+compiler_file: 'BartenderCompiler.php'
+default_templates:
+  - 'BaseHttpQueryModule'

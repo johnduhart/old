@@ -1,0 +1,5 @@
+wiki:
+    baseurl: 'http://en.wikipedia.org/w/api.php'
+    username: 'RaptureBot'
+    password: ''
+    autologin: true

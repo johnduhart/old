@@ -1,0 +1,12 @@
+<?php
+
+/*
+ * Database information
+ */
+$dbHost = "";
+$dbUser = "";
+$dbPass = "";
+$dbPort = 3306;
+$dbName = "";
+
+$baseUrl = "http://compwhizii.net/EventStats/";

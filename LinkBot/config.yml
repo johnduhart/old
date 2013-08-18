@@ -1,0 +1,5 @@
+wiki:
+    baseurl: '' # This will be overridden
+    username: 'External Link to Interwiki (Bot)'
+    password: ''
+    autologin: true
