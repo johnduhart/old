@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>Login - SyncWiki</title>
+		<link rel="stylesheet" href="style.css" />
+		<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+		<script type="text/javascript" src="js/editor.js"></script>
+	</head>
+	<body>
+		<div class="spacer">
+			<div class="container">
+				<div id="tabs-container">
+					<div id="title">
+						Login
+					</div>
+					<ul id="tabs">
+						<li class="tab selected">
+							<a href="layoutLogin.html">
+								<img src="img/login.png" alt="Login" />
+								Login
+							</a>
+						</li>
+						<li class="tab">
+							<a href="layoutRegister.html">
+								<img src="img/register.png" alt="Register" />
+								Register
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="content">
+					<div id="login_box">
+						<div id="login_box_form">
+							<form action="">
+								<table>
+									<tr>
+										<td style="width: 55px;">Username</td>
+										<td style="width: 210px;"><input type="text" id="username" name="username" tabindex="1" /></td>
+									</tr>
+									<tr>
+										<td>Password</td>
+										<td><input type="text" id="pasword" name="password" tabindex="2" /></td>
+									</tr>
+								</table>
+								<div style="padding: 3px 0 3px 8px; overflow: hidden; vertical-align: middle;">
+									<span style="float: right;"><input type="checkbox" /> Remember me</span>
+									<a href="lol">Register</a>
+								</div>
+								<div style="float: right; padding-top: 10px;">
+									<input type="submit" value="Login" />
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div id="footer">
+					Last sync: Mar 3 12:30 GMT<br />
+					&copy; 2010 compwhizii
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
